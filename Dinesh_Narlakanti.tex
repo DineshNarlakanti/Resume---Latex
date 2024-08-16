@@ -17,9 +17,8 @@
 \usepackage{fancyhdr}
 \usepackage{graphicx}
 
-
 \pagestyle{fancy}
-\fancyhf{} % clear all header and footer fields
+\fancyhf{}
 \fancyfoot{}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
@@ -42,17 +41,10 @@
   \vspace{-3pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
-%-------------------------
 % Custom commands
 \newcommand{\resumeItem}[2]{
   \item\small{
     \textbf{#1}{: #2 \vspace{-2pt}}
-  }
-}
-
-\newcommand{\resumeItemWithoutTitle}[1]{
-  \item\small{
-    {\vspace{-2pt}}
   }
 }
 
@@ -63,7 +55,6 @@
       \textit{\small#3} & \textit{\small #4} \\
     \end{tabular*}\vspace{-5pt}
 }
-
 
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
 
@@ -77,96 +68,84 @@
 %-------------------------------------------
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
 \begin{document}
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{{\LARGE Dinesh Narlakanti}} & Email : \href{mailto:dnarlakanti@uh.edu}{dineshnarlakanti@gmail.com}\\
-  \href{https://www.linkedin.com/in/dineshnarlakanti/}{Linkedin: https://www.linkedin.com/in/dineshnarlakanti/} & Phone : 346-971-8728 \\
-  \href{https://github.com/DineshNarlakanti}{Github: https://github.com/DineshNarlakanti}  \\
+  \textbf{{\LARGE Dinesh Narlakanti}} & Email: \href{mailto:dineshnarlakanti@gmail.com}{dineshnarlakanti@gmail.com} \\
+  \href{https://www.linkedin.com/in/dineshnarlakanti/}{LinkedIn: linkedin.com/in/dineshnarlakanti/} & Phone: 346-971-8728 \\
+  \href{https://github.com/DineshNarlakanti}{GitHub: github.com/DineshNarlakanti} \\
 \end{tabular*}
+
 %-----------EDUCATION-----------------
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
       {University of Houston}{Houston, TX}
-      {Masters in Computer Science}{2023}
-      
-	   {\scriptsize \textit{Courses: Machine Learning, Big Data Analytics, Statistical Methods in Research, Program Analysis and Testing, Digital Image Processing, Fundamentals of Medical Imaging, Cloud Computing, Foundations of Security}}
-	    
+      {Masters in Computer Science}{May 2023}
+      \resumeItemListStart
+        \resumeItem{Relevant Courses}{Machine Learning, Big Data Analytics, Statistical Methods in Research, Program Analysis and Testing, Digital Image Processing, Fundamentals of Medical Imaging, Cloud Computing, Foundations of Security}
+      \resumeItemListEnd
+
     \resumeSubheading
       {Lovely Professional University}{Punjab, India}
-      {Bachelor of Computer Science}{2019}
+      {Bachelor of Computer Science}{May 2019}
   \resumeSubHeadingListEnd
 
-%
-%--------PROGRAMMING SKILLS------------
-\section{Skills Summary}
-	\resumeSubHeadingListStart
-     \resumeSubItem{Professional Certifications}{\href{https://learn.microsoft.com/api/credentials/share/en-us/NarlakantiDinesh-8806/DFAE670E54745FEF?sharingId=5E5E0EE1DEC148BF}{Azure Fundamentals}, \href{https://learn.microsoft.com/api/credentials/share/en-us/NarlakantiDinesh-8806/DE86621F7D334009?sharingId=5E5E0EE1DEC148BF}{Azure Administrator Associate},
-     \href{https://learn.microsoft.com/api/credentials/share/en-us/NarlakantiDinesh-8806/EF0C77B79D92157E?sharingId=5E5E0EE1DEC148BF}{Azure Data Fundamentals} }
+%-----------SKILLS-----------------
+\section{Skills}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Professional Certifications}{\href{https://learn.microsoft.com/api/credentials/share/en-us/NarlakantiDinesh-8806/DFAE670E54745FEF?sharingId=5E5E0EE1DEC148BF}{Azure Fundamentals}, \href{https://learn.microsoft.com/api/credentials/share/en-us/NarlakantiDinesh-8806/DE86621F7D334009?sharingId=5E5E0EE1DEC148BF}{Azure Administrator Associate}, \href{https://learn.microsoft.com/api/credentials/share/en-us/NarlakantiDinesh-8806/EF0C77B79D92157E?sharingId=5E5E0EE1DEC148BF}{Azure Data Fundamentals},
+    \href{https://candidate.peoplecert.org/MobileReports.aspx?id=C50C19EEFA758164B19617ABD6C3AD92148F9FE80447A8C8B98282DDDB148066FE8BF3B928562E7C07CB3A3E56FB723C4DD108451F4C86410EF40AB9947E66AF7E09D67845AF870539AC888A5EB8845A3EC40B96BFB461AD60F47EF8E88EFD97DB24B0FC6179A1F77F3F8FE3D29538DBA495883B0470134D676B13DFDA5C57BF}{Site Reliability Engineering Foundations}}
+    \resumeSubItem{Languages and Technologies}{SQL, Python, R, Node.js, Java, C, C++, Tableau, Power BI, Excel, JavaScript, HTML, CSS, Azure, Terraform, Jenkins, Git, New Relic, ServiceNow, Splunk, FullStory, Atlassian Jira}
+    \resumeSubItem{Areas of Interest}{Data Analytics, Cloud Computing, Full-stack Web Development, Software Design and Development, Cloud Engineering, Site Reliability Engineering, Monitoring and Observability, DevOps, GCP, AWS, CI/CD, IaC(infrastructure-as-code), Kubernetes}
+  \resumeSubHeadingListEnd
 
-\resumeSubItem{Languages and Technologies}{SQL, Python, R, Tableau, Power Bi, Excel, JavaScript, HTML, CSS, Azure, Terraform, Jenkins, Git.}
-	\resumeSubItem{Areas of Interest}{Data Analytics, Cloud Computing, Full-stack Web Development, Software Design and Development.}
-
-\resumeSubHeadingListEnd
 %-----------EXPERIENCE-----------------
 \section{Experience}
   \resumeSubHeadingListStart
     \resumeSubheading
-    {Staples Inc}{Framingham, MA}
-    {Software Engineer Rotational}{Jan 2023 -  Present}
-    \resumeItemListStart
-        \item{Rotation 1: Responsible for creating infrastructure such as Keyvaults, Storage Accounts, Data Factory, and Qualys scanner for multiple application teams at Staples across 3-4 environments as requested. Implemented a Jenkins pipeline to automate the provisioning and deployment processes for seamless infrastructure setup.}
-        \item{Automated the creation of web hooks for a project with 638 repositories and created a Jenkins pipeline for it. Implemented a webhook attached to a bot that performs code review by checking indentation and syntax of terraform files in Pull requests.}
-        \item{Rotation 2: Involved in Oracle-to-Azure migration, converting T-SQL scripts to Azure Hyperscale and fine-tuning data replication using Azure Data Studio and SQL Developer.}
-    \resumeItemListEnd
-    
-    \resumeSubheading
-    {University of Houston}{Houston, TX}
-    {Research Assistant - Prof. Seshadri Tirunillai and Prof. Peggy Lindner}{Sept 2021 -  Jan 2023}
-    \resumeItemListStart
-        \item{Project-1: Reduced runtime of a program (estimation of the effect of television advertising on sales) by 20x, from 2 hours to 6 minutes, by optimizing code & leveraging R datatable concepts.}
-        \item{Project-2: Extracted data of S\&P 500 companies from WRDS server, analyzed and filtered the companies that didn't merge/close/change their ticker symbols from 1990 to present and calculated their advertising expense. Project done using R, SQL and their integration.}
-        \item{Project-3: Developed the admin interface to add users and edit the site specific settings to HNET Data-maps Project using Meteor based framework.}
-    \resumeItemListEnd
-    \resumeSubheading
-    {Tata Consultancy Services}{Hyderabad, India}
-    {Systems Engineer}{Jan 2020 - July 2021}
-    \resumeItemListStart
-        \item{Project-1: Analyzed SQL, Java, XML, and JSON codes to write business and functional requirement documents for USAA in Phase-1 of the project.}
-        \item {Project-2: Successfully utilized HTML, CSS, React.js and JavaScript to create a more user-friendly interface which resulted in 5\% increase in website traffic.}
-        
-    \resumeItemListEnd
-    
-    \resumeSubheading
-    {ExtraMarks Education India Pvt Ltd}{Hyderabad, India}
-    {Data Analysis Intern}{Sept 2018 - Dec 2019}
-    \resumeItemListStart
-        \item{Re-organized CRM to increase lead conversion rate by 15\%. Also distributed leads to managers and employees according to their preference.}
-        \item {Developed KPI dashboards to monitor and manage performance of 120 employees, resulting in increased transparency, efficiency and revenue.}
-    \resumeItemListEnd
-\resumeSubHeadingListEnd
+      {Staples Inc}{Framingham, MA}
+      {Software Engineer Rotational}{Jan 2023 - Present}
+      \resumeItemListStart
+        \resumeItem{Rotation 1}{Created multi-environment cloud infrastructure setup for 5+ application teams, deploying Keyvaults, Storage Accounts, Data Factory, and Qualys scanners, facilitated by a Jenkins pipeline for efficient provisioning.}
+        \resumeItem{Rotation 2}{Managed an Oracle-to-Azure migration for 20+ large-scale databases, converting 50+ T-SQL scripts to Azure Hyperscale, improving data replication times and enhancing performance testing processes.}
+        \resumeItem{Rotation 3}{Engineered a revenue impact calculation tool for the SRE team, monitoring over 100 services and integrating with 4 major tools, resulting in a 20\% improvement in incident response times and decision-making efficiency.}
+      \resumeItemListEnd
 
-\begin{comment}
-%-----------PROJECTS-----------------
-\section{Academic Projects}
-\resumeSubHeadingListStart
-\resumeSubItem{Analysis of Physiological Data (R Programming)}{Analyzed, tested the difference and checked the agreement between participants’ heart/breathing rate against their resting rates using paired and pooled t test accordingly during the stress arousals in the individuals. Also checked the significant stress difference between all the 3 treatments using ANOVA test and determined most stressful treatment using posthoc methods. \href{https://rb.gy/qmgw7y}{(Click here to view)}} 
-\resumeSubItem{Quora Automation (Python, Selenium)}{Automated the process of logging into Quora, selecting posts based on the given criteria, adding the selected posts to queue and posts are published on to the respective spaces in regular intervals. Python script is written in Pycharm IDE}
-\resumeSubItem{Movie recommendation System (AWS - Amazon Sagemaker)}{Developed a recommendation Engine using AWS. Implemented using content-based and collaborative-filtering approaches. Used MovieLens dataset that has 1 million ratings from 6000 users on 4000 movies.}
-\resumeSubItem{Sales Management (Excel, SQL and Power BI)}{Created a scenario where Manager of Sales put a business request to create executive sales report that consists of Power BI dashboard which updates regularly, which allows to filter data by customer, by product, by region and also a dashboard with graphs and KPIs. Power BI is loaded with data cleaned and manipulated using SQL and Excel \href{https://rb.gy/zuihet}{(Click here to view)}}\resumeSubHeadingListEnd
-\end{comment}
+    \resumeSubheading
+      {University of Houston}{Houston, TX}
+      {Research Assistant - Prof. Seshadri Tirunillai and Prof. Peggy Lindner}{Sept 2021 - Jan 2023}
+      \resumeItemListStart
+        \resumeItem{Project 1}{Optimized an analytics program analyzing television advertising's impact on sales, reducing runtime from 2h to 6 min by leveraging advanced R datatable concepts.}
+        \resumeItem{Project 2}{Led a complex data extraction and analysis project, utilizing R and SQL to access the WRDS server and analyze historical data of S\&P 500 companies, providing invaluable insights for financial and market trend analysis.}
+        \resumeItem{Project 3}{Developed a sophisticated admin interface for the HNET Data-maps Project, creating functionalities to add users and edit site-specific settings using a Meteor-based framework.}
+      \resumeItemListEnd
 
-% \item {Reduced insurance policy/quote issuing process (to test 8 lab servers in 51 regions) from 3 hours to 10 minutes by automating the process using Java and Selenium.}
-% %-----------Awards-----------------
+    \resumeSubheading
+      {Tata Consultancy Services}{Hyderabad, India}
+      {Systems Engineer}{Jan 2020 - July 2021}
+      \resumeItemListStart
+        \resumeItem{Project 1}{Analyzed SQL, Java, XML, and JSON codes to write business and functional requirement documents for USAA in Phase-1 of the project.}
+        \resumeItem{Project 2}{Utilized HTML, CSS, React.js, and JavaScript to create a more user-friendly interface, resulting in a 5\% increase in website traffic.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {ExtraMarks Education India Pvt Ltd}{Hyderabad, India}
+      {Data Analysis Intern}{Sept 2018 - Dec 2019}
+      \resumeItemListStart
+        \resumeItem{CRM Reorganization}{Increased lead conversion rate by 15\% through re-organizing CRM and distributing leads to managers and employees according to their preference.}
+        \resumeItem{KPI Dashboards}{Developed KPI dashboards to monitor and manage performance of 120 employees, increasing transparency, efficiency, and revenue.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------ACHIEVEMENTS-----------------
 \section{Achievements and Activities}
- \begin{description}[font=$\bullet$]
- \item {Maintained 8 million readerships on \href{https://www.quora.com/profile/Dinesh-Narlakanti}{Quora} through consistent content curation and engagement with Quora community} 
- \item {Solved 100 \% of SQL challenges on \href{https://github.com/DineshNarlakanti/SQL-Hackerrank}{HackerrRank} and \href{https://github.com/DineshNarlakanti/SQL-Leetcode}{Leetcode}, a popular website for coding practice and interview prep\\}
- \item {Vice President at UH-Graduate Indian Student Organization (2022-23)}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Quora}{Maintained 8 million readerships through consistent content curation and engagement with the \href{https://www.quora.com/profile/Dinesh-Narlakanti}{Quora} community.} 
+    \resumeSubItem{Coding Challenges}{Solved 100\% of SQL challenges on \href{https://github.com/DineshNarlakanti/SQL-Hackerrank}{HackerRank} and \href{https://github.com/DineshNarlakanti/SQL-Leetcode}{LeetCode}.}
+    \resumeSubItem{Leadership}{Vice President at UH-Graduate Indian Student Organization (2022-23).}
+    \resumeSubItem{Event Planning}{Part of the planning committee for the \href{https://mitbitcoin.devpost.com/}{MIT Bitcoin conference and hackathon on Scaling Up}; also served as one of the 8 judges, evaluating 18 projects.}
+  \resumeSubHeadingListEnd
 
-\end{description}
-%-------------------------------------------
 \end{document}
